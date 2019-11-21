@@ -1,0 +1,36 @@
+#lista{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+  font-size: 18px;
+
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px;  
+}
+.menu {
+  margin-top: 15px;
+} 
+
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li>a {
+  padding: 5px; 
+  font-family: Bookman; 
+  border-radius: 10px;
+  color: white;
+  background-color: #48CDCC;
+  text-decoration: none;
+}

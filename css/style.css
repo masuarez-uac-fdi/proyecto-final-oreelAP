@@ -1,0 +1,74 @@
+.flexslider{
+  width: 100%;
+  position: relative;
+}
+.slides{
+  overflow: hidden;
+}
+.slides img{
+  width: 400px;
+}
+.slides, .flex-control-nav,
+.flex-direction-nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flex-control-nav{
+  width: 100%;
+  text-align: center;
+}
+.flex-control-nav li{
+  display: inline-block;
+  margin: 0 6px;
+}
+.flex-control-nav li a {
+  display: block;
+  background: #777777;
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  text-indent: -9999px;
+}
+.flex-control-nav li a:hover{
+  background:#2E2E2E;
+}
+.flex-control-nav li a.flex-active{
+  background: #2E2E2E; 
+}
+.flex-direction-nav a{
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  top: 25%;
+  z-index: 999;
+  padding: 100px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  color: white;
+}
+.flex-direction-nav .flex-prev{
+  left: 0;
+}
+.flex-direction-nav .flex-next{
+  right: 0;
+}
+.flex-direction-nav a:before{
+  font-size: 40px;
+  display: inline-block;
+  content: '<';
+  color: black;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+.flex-direction-nav a.flex-next:before{
+  content: '>';
+}
+#inscribete{
+  text-decoration: none;
+  display: block;
+  background: #43DAF9;
+  width: 600px;
+  height: auto;
+  border-radius: 12px;
+}
